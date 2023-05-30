@@ -4,6 +4,9 @@ This repository contains a simple but comprehensive sample app illustrating the 
 ## Overview
 This sample app showcases a list of items that users can reorder through drag and drop operations. The items in the list are fully draggable, and each item can accept a drop, which triggers a reordering of the list. This functionality is implemented using SwiftUI's onDrag and onDrop view modifiers, and the behavior upon drop is controlled via a custom DropDelegate.
 
+## Reordering Demo
+![sample](https://github.com/mustacheyork/DragAndDropOrder/assets/3072908/f83013f1-380f-44b9-8d06-626fe241f0e5)
+
 ## Key Concepts
 ### onDrag
 This view modifier is used to initiate a drag operation. In this sample app, each item in the list is wrapped with an onDrag view modifier that begins a drag operation when the user starts a drag gesture on the item.
@@ -22,4 +25,4 @@ In this application, we've created a custom `DropDelegate` (`MyDropDelegate`) th
 iOS: This sample app requires iOS 15 or later.
 
 ## License
-This project is licensed under the MIT License - see the [[LICENSE](LICENSE)](https://github.com/mustacheyork/DragAndDropOrder/blob/main/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/mustacheyork/DragAndDropOrder/blob/main/LICENSE) file for details
