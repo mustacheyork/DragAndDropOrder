@@ -22,7 +22,7 @@ The [DropDelegate](https://developer.apple.com/documentation/swiftui/dropdelegat
 In this application, we've created a custom `DropDelegate` (`MyDropDelegate`) that handles the reordering of the entities within the list. The `DropDelegate` updates the list of entities when a drop operation occurs, changing the order based on the position of the drop.
 
 ## Working Environment
-iOS: This sample app requires iOS iOS 14 or later.
+iOS: This sample app requires iOS 14 or later.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/mustacheyork/DragAndDropOrder/blob/main/LICENSE) file for details
